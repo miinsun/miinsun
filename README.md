@@ -1,16 +1,42 @@
-### Hi there 👋
+<div align="center">
+  <h1>Hello, I'm MinSun👏</h1>
+  <!-- hits -->
+  <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fmiinsun&count_bg=%23CDCECC&title_bg=%23F66868&icon=smugmug.svg&icon_color=%23E7E7E7&title=hits&edge_flat=false"/></a></br>
+  
+  <!-- 애니메이션 -->
+  <img src="https://user-images.githubusercontent.com/61786235/174429371-c6622e27-ffaa-4e14-9766-855f89702c0c.gif"
+       width =400/>
+  
+  <!-- SNS List -->
+  <h2>✨ SNS ✨</h2>
+    <a href="https://miinsun.tistory.com/" target="_blank"><img src="https://img.shields.io/badge/DevBlog-535D6C?style=flat-square&logo=Blogger&logoColor=white"/></a>
+    <a href="https://www.instagram.com/kg_miin/" target="_blank"><img src="https://img.shields.io/badge/Instagram-E4405F?style=flat-square&logo=Instagram&logoColor=white"/></a>
+     <a href="mailto: "kor3334@naver.com" target="_blank"><img src="https://img.shields.io/badge/Mail-EA4335?style=flat-square&logo=Gmail&logoColor=white"/></a>
+  <br/><br/>
+  <!-- Tech Stack -->
+  <h2>⚒ Tech Stack ⚒</h2>
+  <div>💡 used as the main</div>
+  <img src="https://img.shields.io/badge/Spring-6DB33F?style=flat-square&logo=Spring&logoColor=white"/>
+  <img src="https://img.shields.io/badge/SpringBoot-6DB33F?style=flat-square&logo=Spring Boot&logoColor=white"/>
+  <img src="https://img.shields.io/badge/OracleDB-F80000?style=flat-square&logo=Oracle&logoColor=white"/>
+  <br/>
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=MySQL&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=Docker&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=Linux&logoColor=white"/>
+  <br/><br/>
+  <div>💡 used at least once</div>
+  <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=React&logoColor=white"/>
+  <img src="https://img.shields.io/badge/AndroidStudio-3DDC84?style=flat-square&logo=Android Studio&logoColor=white"/>
+  <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=Amazon AWS&logoColor=white"/>
+  <br/>
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=white"/>
+  <img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=C&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=white"/>
+</div>
+  
+<br>
 
-<!--
-**miinsun/miinsun** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<div align=center>
 
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+  <!-- Git Status -->
+![Miinsun's github stats](https://github-readme-stats.vercel.app/api?username=miinsun&show_icons=true&theme=buefy)
