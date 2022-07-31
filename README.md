@@ -7,12 +7,6 @@
   <img src="https://user-images.githubusercontent.com/61786235/174429371-c6622e27-ffaa-4e14-9766-855f89702c0c.gif"
        width =400/>
   
-  <!-- SNS List -->
-  <h2>✨ SNS ✨</h2>
-    <a href="https://miinsun.tistory.com/" target="_blank"><img src="https://img.shields.io/badge/DevBlog-535D6C?style=flat-square&logo=Blogger&logoColor=white"/></a>
-    <a href="https://www.instagram.com/kg_miin/" target="_blank"><img src="https://img.shields.io/badge/Instagram-E4405F?style=flat-square&logo=Instagram&logoColor=white"/></a>
-     <a href="mailto: "kor3334@naver.com" target="_blank"><img src="https://img.shields.io/badge/Mail-EA4335?style=flat-square&logo=Gmail&logoColor=white"/></a>
-  <br/><br/>
   <!-- Tech Stack -->
   <h2>⚒ Tech Stack ⚒</h2>
   <div>💡 used as the main</div>
