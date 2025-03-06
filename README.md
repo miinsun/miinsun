@@ -29,7 +29,7 @@
 <div style="display: flex; align-items: flex-start; align: center">
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=git,java,ansible,kubernetes,docker,c,vim,aws,bootstrap,arduino,elasticsearch,github,go,html,js,jenkins,kafka,linux,mysql,nginx,openstack,postman,prometheus,py,react,spring,sqlite,terraform,vscode,vue,grafana,eclipse,css,androidstudio,ubuntu&perline=12" />
+    <img src="https://skillicons.dev/icons?i=git,java,ansible,kubernetes,docker,c,vim,aws,bootstrap,arduino,elasticsearch,github,go,html,js,jenkins,kafka,linux,mysql,nginx,openstack,postman,prometheus,py,react,spring,sqlite,terraform,vscode,vue,grafana,eclipse,css,androidstudio,ubuntu&perline=7" />
   </a>
 </p>
 </div>
