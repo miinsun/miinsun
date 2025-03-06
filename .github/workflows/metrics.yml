@@ -106,5 +106,9 @@ jobs:
           plugin_languages_recent_load: 300
           plugin_languages_sections: most-used
           plugin_languages_threshold: 0%
+          plugin_activity: yes
+          plugin_activity_limit: 3
+          plugin_activity_days: 0
+          plugin_activity_filter: issue, pr, release, fork, review, ref/create
         env:
           GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN }}
