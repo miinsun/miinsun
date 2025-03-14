@@ -21,17 +21,18 @@ try:
     with open("README.md", "r", encoding="utf-8") as file:
         content = file.read()
 
-    # <p class="rss"> 태그 안 내용 대체 (기존 내용 삭제)
-    updated_content = re.sub(
-        r'(<p class="rss">)(.*?)(</p>)',
-        rf'\1{markdown_text}\3',
-        content,
-        flags=re.DOTALL
-    )
+    # BeautifulSoup을 사용하여 HTML 파싱
+    soup = BeautifulSoup(content, "html.parser")
 
-    # 변경된 내용 다시 쓰기
+    # <p class="rss"> 태그를 찾아서 해당 내용만 업데이트
+    rss_tag = soup.find("p", class_="rss")
+    if rss_tag:
+        rss_tag.clear()  # 기존 내용 삭제
+        rss_tag.append(markdown_text)  # 새로운 내용 추가
+
+    # 기존 내용과 변경된 내용을 합쳐서 다시 쓰기
     with open("README.md", "w", encoding="utf-8") as file:
-        file.write(f'<p class="rss">\n{markdown_text}</p>')
+        file.write(str(soup))  # 수정된 HTML을 그대로 저장
 
     print("README.md 업데이트 완료!")
 
