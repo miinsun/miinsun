@@ -37,19 +37,18 @@
 <div style="display: flex; align-items: flex-start; align: center">
 <p align="center">
 <a href="https://skillicons.dev">
-<img src="https://skillicons.dev/icons?i=git,java,ansible,kubernetes,docker,c,vim,aws,bootstrap,arduino,elasticsearch,github,go,html,js,jenkins,kafka,linux,mysql,nginx,openstack,postman,prometheus,py,react,spring,sqlite,terraform,vscode,vue,grafana,eclipse,css,androidstudio,ubuntu&amp;perline=7">
-</img></a>
+<img src="https://skillicons.dev/icons?i=git,java,ansible,kubernetes,docker,c,vim,aws,bootstrap,arduino,elasticsearch,github,go,html,js,jenkins,kafka,linux,mysql,nginx,openstack,postman,prometheus,py,react,spring,sqlite,terraform,vscode,vue,grafana,eclipse,css,androidstudio,ubuntu&amp;perline=7"/>
+</a>
 </p>
 </div>
 <h2 width="100%"> 🚀 Git Status</h2>
 <a href="https://github.com/anuraghazra/github-readme-stats">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=miinsun&amp;layout=donut&amp;show_icons=true&amp;theme=material-palenight&amp;hide_border=true&amp;bg_color=20232a&amp;icon_color=58A6FF&amp;text_color=fff&amp;title_color=58A6FF&amp;count_private=true&amp;exclude_repo=Face-Transfer-Application&amp;role=OWNER,ORGANIZATION_MEMBER,COLLABORATOR" width="38%">
-</img></a>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=miinsun&amp;layout=donut&amp;show_icons=true&amp;theme=material-palenight&amp;hide_border=true&amp;bg_color=20232a&amp;icon_color=58A6FF&amp;text_color=fff&amp;title_color=58A6FF&amp;count_private=true&amp;exclude_repo=Face-Transfer-Application&amp;role=OWNER,ORGANIZATION_MEMBER,COLLABORATOR" width="38%"/>
+</a>
 <a href="https://github.com/anuraghazra/github-readme-stats">
 <img src="https://github-readme-stats-one-bice.vercel.app/api?username=miinsun&amp;theme=material-palenight&amp;show_icons=true&amp;count_private=true&amp;icon_color=58A6FF&amp;text_color=fff&amp;title_color=58A6FF&amp;bg_color=20232a&amp;hide_border=true&amp;role=OWNER,ORGANIZATION_MEMBER,COLLABORATOR" width="59%"/>
 </a>
 <a href="https://github.com/anuraghazra/github-readme-stats">
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=miinsun&amp;theme=material-palenight&amp;bg_color=20232a&amp;hide_border=true&amp;line=58A6FF&amp;color=58A6FF&amp;role=OWNER,ORGANIZATION_MEMBER,COLLABORATOR" width="97%/"/>
 </a>
-<img align="left" alt="Solved.ac 프로필" src="http://mazassumnida.wtf/api/v2/generate_badge?boj=kor3334" width="50%">
-</img>
+<img align="left" alt="Solved.ac 프로필" src="http://mazassumnida.wtf/api/v2/generate_badge?boj=kor3334" width="50%"/>
