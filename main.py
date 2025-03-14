@@ -1,6 +1,7 @@
 import feedparser
 import time
 import re
+from bs4 import BeautifulSoup
 
 # RSS 데이터 가져오기
 URL = "https://miinsun.tistory.com/rss"
