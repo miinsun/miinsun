@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 # RSS 데이터 가져오기
 URL = "https://miinsun.tistory.com/rss"
 RSS_FEED = feedparser.parse(URL)
-MAX_POST = 2
+MAX_POST = 3
 
 # 새로운 RSS 콘텐츠 생성
 soup = BeautifulSoup("<p class='rss'></p>", "html.parser")
