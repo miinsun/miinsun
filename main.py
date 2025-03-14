@@ -8,32 +8,42 @@ URL = "https://miinsun.tistory.com/rss"
 RSS_FEED = feedparser.parse(URL)
 MAX_POST = 2
 
-markdown_text = ""
+# 새로운 RSS 콘텐츠 생성
+soup = BeautifulSoup("<p class='rss'></p>", "html.parser")
+rss_tag = soup.find("p", class_="rss")
 
+# RSS 피드 내용 추가
 for idx, feed in enumerate(RSS_FEED['entries']):
     if idx >= MAX_POST:
         break
     else:
         feed_date = feed['published_parsed']
         formatted_date = f"{feed_date.tm_mon}/{feed_date.tm_mday}/{feed_date.tm_year}"
-        markdown_text += f'<p> <a href="{feed["link"]}" target="_blank">{formatted_date} - {feed["title"]}</a></p>\n'
+
+        # BeautifulSoup으로 a 태그 생성
+        new_link = soup.new_tag("a", href=feed["link"], target="_blank")
+        new_link.string = f"{formatted_date} - {feed['title']}"
+
+        # 새로운 링크를 <p class="rss"> 안에 추가
+        rss_tag.append(new_link)
+        rss_tag.append(soup.new_tag("br"))
         
 # 기존 README.md 파일 불러오기
 try:
     with open("README.md", "r", encoding="utf-8") as file:
         content = file.read()
 
-    # BeautifulSoup을 사용하여 HTML 파싱
-    soup = BeautifulSoup(content, "html.parser")
+    # 기존 README를 BeautifulSoup으로 불러오기
+    readme_soup = BeautifulSoup(content, "html.parser")
+    old_rss_tag = readme_soup.find("p", class_="rss")
 
-    # <p class="rss"> 태그를 찾아서 해당 내용만 업데이트
-    rss_tag = soup.find("p", class_="rss")
-    if rss_tag:
-        rss_tag.clear()  # 기존 내용 삭제
-        rss_tag.append(markdown_text)  # 새로운 내용 추가
+    # 기존 RSS 내용 삭제 후 새로운 내용 추가
+    if old_rss_tag:
+        old_rss_tag.replace_with(soup)
 
+    # 변경된 README.md 다시 쓰기
     with open("README.md", "w", encoding="utf-8") as file:
-        file.write(str(soup))
+        file.write(str(readme_soup))
 
     print("README.md 업데이트 완료!")
 
