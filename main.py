@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 # RSS 데이터 가져오기
 URL = "https://miinsun.tistory.com/rss"
 RSS_FEED = feedparser.parse(URL)
-MAX_POST = 5
+MAX_POST = 2
 
 markdown_text = ""
 
@@ -16,7 +16,7 @@ for idx, feed in enumerate(RSS_FEED['entries']):
     else:
         feed_date = feed['published_parsed']
         formatted_date = f"{feed_date.tm_mon}/{feed_date.tm_mday}/{feed_date.tm_year}"
-        markdown_text += f' -<a href="{feed["link"]}" target="_blank">({formatted_date}) {feed["title"]}</a>'
+        markdown_text += f'<p> <a href="{feed["link"]}" target="_blank">{formatted_date} - {feed["title"]}</a></p>\n
         
 # 기존 README.md 파일 불러오기
 try:
@@ -32,9 +32,8 @@ try:
         rss_tag.clear()  # 기존 내용 삭제
         rss_tag.append(markdown_text)  # 새로운 내용 추가
 
-    # 기존 내용과 변경된 내용을 합쳐서 다시 쓰기
     with open("README.md", "w", encoding="utf-8") as file:
-        file.write(str(soup))  # 수정된 HTML을 그대로 저장
+        file.write(str(soup))
 
     print("README.md 업데이트 완료!")
 
