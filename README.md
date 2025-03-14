@@ -17,8 +17,7 @@
       - Outside of work, you can find me running at Seoul Botanical Garden or enjoying the art of leather crafting.
     </p>
       <h3> Latest Posts </h3>
-    <!-- feed start -->
-    <!-- feed end -->
+    <p class="rss"></p>
     <img align="left" width="45%" alt="if you see this, it means my metrics are not working" src="https://github.com/miinsun/miinsun/blob/main/metrics.plugin.notable.indepth.svg">
     <img align="left" width="45%" alt="if you see this, it means my metrics are not working" src="https://github.com/miinsun/miinsun/blob/main/metrics.plugin.activity.svg">
   </div>
