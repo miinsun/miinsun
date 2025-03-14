@@ -8,6 +8,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: sarisia/actions-readme-feed@v1
+        name: feed
         id: feed
         with:
           url: 'https://miinsun.tistory.com/rss'
