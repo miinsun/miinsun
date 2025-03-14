@@ -14,14 +14,14 @@ for idx, feed in enumerate(RSS_FEED['entries']):
         break
     else:
         feed_date = feed['published_parsed']
-        markdown_text += f'- <a href="{feed["link"]}" target="_blank">{feed["title"]}</a> ({feed_date.tm_mon}/{feed_date.tm_mday})\n'
-
+        markdown_text += f'- <a href="{feed["link"]}" target="_blank">{feed["title"]}</a> ({feed_date.tm_mon}/{feed_date.tm_mday})\n\n'
+        
 # 기존 README.md 파일 불러오기
 try:
     with open("README.md", "r", encoding="utf-8") as file:
         content = file.read()
 
-    # <p class="rss"> 태그 안 내용 대체 (기존 내용 유지)
+    # <p class="rss"> 태그 안 내용 대체 (기존 내용 삭제)
     updated_content = re.sub(
         r'(<p class="rss">)(.*?)(</p>)',
         rf'\1{markdown_text}\3',
@@ -31,7 +31,7 @@ try:
 
     # 변경된 내용 다시 쓰기
     with open("README.md", "w", encoding="utf-8") as file:
-        file.write(updated_content)
+        file.write(f'<p class="rss">\n{markdown_text}</p>')
 
     print("README.md 업데이트 완료!")
 
