@@ -15,7 +15,8 @@ for idx, feed in enumerate(RSS_FEED['entries']):
         break
     else:
         feed_date = feed['published_parsed']
-        markdown_text += f'- <a href="{feed["link"]}" target="_blank">{feed["title"]}</a> ({feed_date.tm_mon}/{feed_date.tm_mday})\n\n'
+        formatted_date = f"{feed_date.tm_mon}/{feed_date.tm_mday}/{feed_date.tm_year}"
+        markdown_text += f' - ({formatted_date}) <a href="{feed["link"]}" target="_blank">{feed["title"]}</a> <br/>'
         
 # 기존 README.md 파일 불러오기
 try:
