@@ -3,18 +3,6 @@ on:
   # Schedule daily updates
   schedule: [{cron: "0 0 * * *"}]
 jobs:
-  readme:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: sarisia/actions-readme-feed@v1
-        name: feed
-        id: feed
-        with:
-          url: 'https://miinsun.tistory.com/rss'
-          file: 'README.md'
-      - if: ${{ steps.feed.outputs.changed == true }}
-        uses: sarisia/actions-commit@master
   github-metrics:
     runs-on: ubuntu-latest
     environment: 
