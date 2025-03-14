@@ -3,10 +3,8 @@
 <div style="flex: 1; max-width: 45%;">
 <img align="left" alt="if you see this, it means my metrics are not working" src="https://github.com/miinsun/miinsun/blob/main/github-metrics.svg" width="50%"/>
 </div>
-      
 <!-- Right Column: Metrics -->
 <div style="flex: 1; max-width: 50%; text-align: left; margin-left: 20px;">
-      
 <h2> Together, We Rise!</h2>
 <p align="left">
 <b>Contact me 🙌</b>
