@@ -23,7 +23,7 @@
 <img align="left" alt="if you see this, it means my metrics are not working" src="https://github.com/miinsun/miinsun/blob/main/metrics.plugin.activity.svg" width="45%"/>
 </div>
 </div>
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<br/><br/><br/><br/><br/><br/><br/><br/>
 <h2 width="100%"> 💻 My favorite tools and technologies </h2>
 <div style="display: flex; align-items: flex-start; align: center">
 <p align="center">
