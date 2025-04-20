@@ -20,7 +20,7 @@
 <b> Latest Posts </b>
 <p class="rss"><a href="https://miinsun.tistory.com/333" target="_blank">12/4/2023 - [CKA] CKA 후기</a><br/><a href="https://miinsun.tistory.com/332" target="_blank">12/4/2023 - [CKA] CKA 알아둬야 하는 시스템 구조</a><br/><a href="https://miinsun.tistory.com/331" target="_blank">12/4/2023 - [CKA] CKA 알아둬야 하는 명령어</a><br/></p>
 <img align="left" alt="if you see this, it means my metrics are not working" src="https://github.com/miinsun/miinsun/blob/main/metrics.plugin.notable.indepth.svg" width="45%"/>
-<img align="left" alt="if you see this, it means my metrics are not working" src="https://github.com/miinsun/miinsun/blob/main/metrics.plugin.activity.svg" width="45%"/>
+<!-- <img align="left" alt="if you see this, it means my metrics are not working" src="https://github.com/miinsun/miinsun/blob/main/metrics.plugin.activity.svg" width="45%"/> -->
 </div>
 </div>
 <br/><br/><br/><br/><br/><br/><br/><br/>
