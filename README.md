@@ -18,7 +18,7 @@
       - Outside of work, you can find me running at Seoul Botanical Garden or enjoying the art of leather crafting.
     </p>
 <b> Latest Posts </b>
-<p class="rss"><a href="https://miinsun.tistory.com/336" target="_blank">4/20/2025 - [CKS] CKS 대비</a><br/><a href="https://miinsun.tistory.com/333" target="_blank">12/4/2023 - [CKA] CKA 후기</a><br/><a href="https://miinsun.tistory.com/332" target="_blank">12/4/2023 - [CKA] CKA 알아둬야 하는 시스템 구조</a><br/></p>
+<p class="rss"><a href="https://miinsun.tistory.com/337" target="_blank">6/22/2025 - KCSA 대비</a><br/><a href="https://miinsun.tistory.com/336" target="_blank">4/20/2025 - [CKS] CKS 대비</a><br/><a href="https://miinsun.tistory.com/333" target="_blank">12/4/2023 - [CKA] CKA 후기</a><br/></p>
 <img align="left" alt="if you see this, it means my metrics are not working" src="https://github.com/miinsun/miinsun/blob/main/metrics.plugin.notable.indepth.svg" width="45%"/>
 <!-- <img align="left" alt="if you see this, it means my metrics are not working" src="https://github.com/miinsun/miinsun/blob/main/metrics.plugin.activity.svg" width="45%"/> -->
 </div>
