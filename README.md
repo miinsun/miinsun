@@ -18,7 +18,7 @@
       - Outside of work, you can find me running at Seoul Botanical Garden or enjoying the art of leather crafting.
     </p>
 <b> Latest Posts </b>
-<p class="rss"><a href="https://miinsun.tistory.com/340" target="_blank">9/6/2025 - Manage Kubernetes in Google Cloud</a><br/><a href="https://miinsun.tistory.com/338" target="_blank">7/26/2025 - Kubestronaut 취득 후기</a><br/><a href="https://miinsun.tistory.com/337" target="_blank">6/22/2025 - KCSA 대비</a><br/></p>
+<p class="rss"><a href="https://miinsun.tistory.com/342" target="_blank">10/7/2025 - Gemini CLI 를 통한 Kubernetes 노드 운영 관리</a><br/><a href="https://miinsun.tistory.com/340" target="_blank">9/6/2025 - Manage Kubernetes in Google Cloud</a><br/><a href="https://miinsun.tistory.com/338" target="_blank">7/26/2025 - Kubestronaut 취득 후기</a><br/></p>
 <img align="left" alt="if you see this, it means my metrics are not working" src="https://github.com/miinsun/miinsun/blob/main/metrics.plugin.notable.indepth.svg" width="45%"/>
 <!-- <img align="left" alt="if you see this, it means my metrics are not working" src="https://github.com/miinsun/miinsun/blob/main/metrics.plugin.activity.svg" width="45%"/> -->
 </div>
